@@ -1,0 +1,2 @@
+# Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set
+This repository showcases multiple linear regression on the data set to predict the rented bike count. Exploratory data analysis is performed to give a deeper look into the data set. Gradient descent algorithm with the batch update is implemented to study the effects of the hyper parameters such as learning rate and threshold on the residuals, R - squared value, and nature of convergence on the test and training sets.
