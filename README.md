@@ -65,11 +65,23 @@ Humidity(%)) + (β4 × Wind speed (m/s)) + (β5 × Visibility (10m)) + (β6 × D
 Solar Radiation (MJ/m2)) + (β8 × Rainfall(mm)) + (β9 × Snowfall (cm)) + (β10 × Holiday) + (β11 × Functioning
 Day) + (β12 × Spring) + (β13 × Summer) + (β14 × Winter)
 
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt1_cost.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt1_test_error.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt1_train_error.png" alt="drawing"/>
+
 
 - Model for testing with 8 random features  <br>
 log( Bike Share Count ) = features = (β0 × const) + (β1 × Wind speed (m/s)) + (β2 ×Humidity(%)) + (β3 ×
 Visibility (10m)) + (β4 × Solar Radiation (MJ/m2)) + (β5 × Spring) + (β6 × Winter) + (β7 × 'Summer) + (β8 ×
 Dew point temperature(°C))
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt3_cost.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt3_test_error.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt3_train_error.png" alt="drawing"/>
 
 Eight random features from the data set. The solution converged 1867 iterations and had a lower train and test
 R-squared value of 0.23 and 0.21 respectively. The residuals are less uniformly distributed compared to the case of all the features being included.
@@ -78,6 +90,12 @@ R-squared value of 0.23 and 0.21 respectively. The residuals are less uniformly 
 log( Bike Share Count ) = features = (β0 × const) + (β1 × Hour) + (β2 × Temperature(°C)) + (β3 ×
 Humidity(%)) + (β4 ×Wind speed (m/s)) + (β5 × Visibility (10m)) + (β6 × Solar Radiation (MJ/m2)) + (β7 ×
 Rainfall(mm)) + (β8 × Snowfall (cm))
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt4_cost.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt4_test_error.png" alt="drawing"/>
+
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/expt4_train_error.png" alt="drawing"/>
 
 Eight features were intuitively selected on the basis of correlation from the heat map and general idea about how people might go about riding a bike on a given day. The model performed a little better than 8 randomly selected features but much worse in comparison with all the features. The model converges around 1089 iterations with a train and test scores of 0.265 and 0.243. The residuals distribution seems similar to randomly selected features.
 
