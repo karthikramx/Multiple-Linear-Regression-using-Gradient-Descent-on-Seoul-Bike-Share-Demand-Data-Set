@@ -1,6 +1,6 @@
-# Multiple Linear Regression using Gradient Descent on Seoul Bike Share Demand Data Set
+## Multiple Linear Regression using Gradient Descent on Seoul Bike Share Demand Data Set
 ### Data set information
-This repository showcases multiple linear regression on the data set to predict the rented bike count. Exploratory data analysis is performed to give a deeper look into the data set. Gradient descent algorithm with the batch update is implemented to study the effects of the hyper parameters such as learning rate and threshold on the residuals, R - squared value, and nature of convergence on the test and training sets.
+This repository showcases multiple linear regression on the data set to predict the rented bike count. Gradient descent algorithm with the batch update is implemented to study the effects of the hyper parameters such as learning rate and threshold on the residuals, R - squared value, and nature of convergence on the test and training sets.
 
 Gradient descent is a first-order optimization algorithm used to find local minima or maxima. In multiple linear regression,a cost function (J) is defined over the predicted values (yᶺ) and the actual values (y) from a data set as follows<br><br>
 J(β0, β1) = (1/2m) x ∑(yᶺ(i) – y(i))2 <br><br>
@@ -21,9 +21,7 @@ has both numerical and categorical variables. The table below describes the summ
 
 A pair plot against the target variable Rented Bike Count is plotted to check for any relationships and patterns that can help us choose or drop features. There seems to be a high correlation between temperature and dew point temperature
 
-(Insert Image here - pair plot with y variable)
-
-
+<img src="https://github.com/karthikramx/Multiple-Linear-Regression-using-Gradient-Descent-on-Seoul-Bike-Share-Demand-Data-Set/blob/main/Plots/y%20-%20pair%20plot.png" alt="drawing" style="width:1500px;"/>
 
 ### Preparing data - mapping, normalizing, and splitting
 
